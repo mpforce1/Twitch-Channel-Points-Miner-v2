@@ -5,7 +5,7 @@ URL = "https://www.twitch.tv"               # Browser, Apps
 IRC = "irc.chat.twitch.tv"
 IRC_PORT = 6667
 WEBSOCKET = "wss://pubsub-edge.twitch.tv/v1"
-CLIENT_ID = "ue6666qo983tsx6so1t0vnawi233wa"        # TV
+CLIENT_ID = "ue6666qo983tsx6so1t0vnawi233wa"  # TV
 # CLIENT_ID = "kimne78kx3ncx6brgo4mv6wki5h1ko"      # Browser
 # CLIENT_ID = "r8s4dac0uhzifbpu9sjdiwzctle17ff"     # Mobile Browser
 # CLIENT_ID = "kd1unb4b3q4t58fwlpcbzcbnm76a8fp"     # Android App
@@ -208,4 +208,22 @@ class GQLOperations:
                 "sha256Hash": "eecf815273d3d949e5cf0085cc5084cd8a1b5b7b6f7990cf43cb0beadf546907",
             }
         },
+    }
+    UserPointsContribution = {
+        "operationName": "UserPointsContribution",
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "23ff2c2d60708379131178742327ead913b93b1bd6f665517a6d9085b73f661f"
+            }
+        }
+    }
+    ContributeCommunityPointsCommunityGoal = {
+        "operationName": "ContributeCommunityPointsCommunityGoal",
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "5774f0ea5d89587d73021a2e03c3c44777d903840c608754a1be519f51e37bb6"
+            }
+        }
     }
